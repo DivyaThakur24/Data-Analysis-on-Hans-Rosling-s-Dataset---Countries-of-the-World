@@ -1,8 +1,32 @@
 # Data Analysis on Hans Rosling's Dataset - Countries of the World
 
+[![Python](https://img.shields.io/badge/Python-EDA-blue?style=flat&logo=python)](https://www.python.org/)
+[![Jupyter Notebook](https://img.shields.io/badge/Jupyter-Notebook-orange?style=flat&logo=jupyter)](https://jupyter.org/)
+[![Dataset](https://img.shields.io/badge/Countries-227-success)](#dataset)
+[![Columns](https://img.shields.io/badge/Columns-20-teal)](#dataset)
+[![License](https://img.shields.io/badge/License-MIT-lightgrey)](./LICENSE)
+
 ![CoverPic](https://user-images.githubusercontent.com/36337727/179342592-941a0dd2-6cee-4d8d-ade9-0eb3ddb9cffc.png)
 
 Exploratory data analysis and visualization project based on a countries-of-the-world dataset containing population, GDP, literacy, mortality, land use, climate, and economic sector indicators.
+
+## Table Of Contents
+
+- [Overview](#overview)
+- [Dataset](#dataset)
+- [Project Goals](#project-goals)
+- [Tools Used](#tools-used)
+- [Data Cleaning Performed](#data-cleaning-performed)
+- [Analysis Workflow](#analysis-workflow)
+- [Questions Explored](#questions-explored)
+- [Key Insights At A Glance](#key-insights-at-a-glance)
+- [Key Learning Themes](#key-learning-themes)
+- [Correlation Analysis](#correlation-analysis)
+- [Files In This Repository](#files-in-this-repository)
+- [How To Use](#how-to-use)
+- [What This Project Demonstrates](#what-this-project-demonstrates)
+- [Future Improvements](#future-improvements)
+- [Author](#author)
 
 ## Overview
 
@@ -128,6 +152,29 @@ This compares economic strength by region.
 ### Q4. Which region has the highest population?
 
 This examines regional population concentration.
+
+## Key Insights At A Glance
+
+| Area | Insight |
+|---|---|
+| Data Quality | Numeric values required cleaning because several columns used commas instead of decimal points |
+| Missing Values | Some columns needed imputation before analysis could continue |
+| Regional Comparison | The notebook compares literacy, GDP, and population at the region level |
+| Climate Analysis | Arable land is analyzed across climate categories |
+| Visualization | Histograms, boxplots, barplots, line plots, and heatmaps are used to tell the story |
+| Correlation | The heatmap helps identify which country indicators move together and which do not |
+
+## Why This Project Matters
+
+This project is a strong example of how exploratory data analysis can be used to move from raw global data to meaningful questions about development, geography, and socioeconomic patterns.
+
+It is especially valuable because it combines:
+
+- practical data cleaning
+- statistical thinking
+- visual comparison across categories
+- correlation-driven exploration
+- region and climate level reasoning
 
 ## Key Learning Themes
 
